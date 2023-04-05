@@ -22,10 +22,6 @@ ul {
     position: relative;
 }
 
-.absolute {
-    position: absolute;
-}
-
 /* Container  */
 
 .container {
@@ -33,7 +29,7 @@ ul {
     margin: 0 auto;
 }
 
-/* --------- */
+/* Header */
 
 .navbar {
     padding: 10px;
@@ -57,6 +53,48 @@ div.nav-logo a img{
 
 div.nav-settings a img {
     height: 1.2rem;
+}
+
+/* Main  */
+
+.main-row {
+    background-color: grey;
+    border: solid black 2px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+div.main-column {
+    width: calc((100% / 3) - 15px);
+    height: 600px;
+    background-color: cadetblue;
+    border: dotted 2px goldenrod;
+}
+
+.favourite-button{
+    position: absolute;
+    top: 1.5%;
+    right: 0;
+
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+div.product-tags {
+    position: absolute;
+    bottom: 7%;
+}
+
+span.product-discount {
+    background-color: red;
+    margin-right: 0.2rem;
+}
+
+span.product-eco {
+    background-color: green;
 }
 
 /* Text Colors  */
