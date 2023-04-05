@@ -13,6 +13,9 @@ ul {
     list-style-type: none;
 }
 
+footer {
+    background-color: #1a1a1a;
+}
 /* Controlli posizione  */
 .flex {
     display: flex;
@@ -126,6 +129,10 @@ div.product-description p.discounted-price , div.product-description p.full-pric
     display: inline-block;
 } 
 
+.footer-container {
+    justify-content: space-between;
+}
+
 
 /* Text Colors  */
 
@@ -145,17 +152,5 @@ div.product-description p.discounted-price , div.product-description p.full-pric
 
 .bg-color-orange {
     background-color: #ff6900;
-}
-
-.bg-color-dark-grey {
-    background-color: #1a1a1a;
-}
-
-.bg-color-red {
-    background-color: red;
-}
-
-.bg-color-green {
-    background-color: green;
 }
 
