@@ -145,6 +145,14 @@ div.product-img-container:hover img.product-img-secondary {
     display: inline-block;
 }
 
+/* Hover cuoricino se si passa il cursore sul cuore  */
+
+/* Hover cuoricino se si passa sull'immagine  */
+
+div.favourite-button:hover {
+    color:red;
+}
+
 /* Main Descrizione prodotto */
 
 div.product-description p.brand-name {
