@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Controlli posizione  */
 .flex {
     display: flex;
 }
@@ -15,4 +24,69 @@
 
 .absolute {
     position: absolute;
+}
+
+/* Container  */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --------- */
+
+.navbar {
+    padding: 10px;
+}
+
+div.navbar div.container {
+    justify-content: space-between;
+}
+
+div.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+div.nav-logo a img{
+    height: 1.6rem;
+}
+
+div.nav-settings a img {
+    height: 1.2rem;
+}
+
+/* Text Colors  */
+
+.text-color-white {
+    color: white;
+}
+
+.text-color-black {
+    color: black;
+}
+
+.text-color-red {
+    color: red;
+}
+
+/* Background colors  */
+
+.bg-color-orange {
+    background-color: #ff6900;
+}
+
+.bg-color-dark-grey {
+    background-color: #1a1a1a;
+}
+
+.bg-color-red {
+    background-color: red;
+}
+
+.bg-color-green {
+    background-color: green;
 }
