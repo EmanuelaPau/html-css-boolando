@@ -128,3 +128,24 @@ span.product-eco {
 .bg-color-green {
     background-color: green;
 }
+
+div.product-img-container {
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+
+div.product-img-container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img.product-img-secondary {
+    display: none;
+}
+
+div.product-img-container:hover img.product-img-secondary {
+    display: inline-block;
+}
