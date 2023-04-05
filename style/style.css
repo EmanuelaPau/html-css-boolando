@@ -146,10 +146,13 @@ div.product-img-container:hover img.product-img-secondary {
 }
 
 /* Hover cuoricino se si passa il cursore sul cuore  */
+/* div.favourite-button:hover {
+    color:red;
+} */
 
 /* Hover cuoricino se si passa sull'immagine  */
 
-div.favourite-button:hover {
+div.product-img-container:hover div.favourite-button {
     color:red;
 }
 
