@@ -20,6 +20,7 @@ ul {
 footer {
     background-color: #1a1a1a;
     padding: 1.8rem 0;
+    position: relative;
 }
 
 a {
@@ -27,6 +28,10 @@ a {
     text-decoration: none;
     font-size: 0.85rem;
     padding-right: 0.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -62,6 +67,7 @@ h3 {
 .navbar {
     padding: 1.1rem 0;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 8px 0px;
+    background-color: #ff6900;
 }
 
 div.container {
@@ -130,7 +136,7 @@ div.product-img-container {
     height: 600px;
 }
 
-div.product-img-container img{
+div.product-img-container img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -153,8 +159,7 @@ div.product-img-container:hover img.product-img-secondary {
 /* Hover cuoricino se si passa sull'immagine  */
 
 div.product-img-container:hover div.favourite-button {
-    color:red;
-}
+    color:red;}
 
 /* Main Descrizione prodotto */
 
@@ -194,6 +199,12 @@ div.footer-info h2 {
     padding-bottom: 0.5rem;
 }
 
+div.footer-socials {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
 div.footer-socials h3 {
     padding-bottom: 0.5rem;
 }
@@ -210,16 +221,9 @@ div.footer-socials img {
 }
 
 .text-color-black {
-    color: black;
+    color: black;å
 }
 
 .text-color-red {
     color: red;
 }
-
-/* Background colors  */
-
-.bg-color-orange {
-    background-color: #ff6900;
-}
-
