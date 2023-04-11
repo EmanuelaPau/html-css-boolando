@@ -1,9 +1,9 @@
 # html-css-boolando
-Booleando is a Zalando inspired website.
+Booleando is a Zalando inspired website. 
 The goal is to be able to make a replica starting from these two references:
 
-![image (1)](https://user-images.githubusercontent.com/121491102/231084389-51e5e43e-323d-4705-a52b-ff491d6bf454.png)
-![image (2)](https://user-images.githubusercontent.com/121491102/231084413-39c2b85f-90e1-44e0-add9-17da37d8dcbb.png)
+<img align="left" src="https://user-images.githubusercontent.com/121491102/231084389-51e5e43e-323d-4705-a52b-ff491d6bf454.png" width="400" />
+<img  src="https://user-images.githubusercontent.com/121491102/231084413-39c2b85f-90e1-44e0-add9-17da37d8dcbb.png" width="400" />
 
 In this exercise are required the following abilities:
 1. To be able of using Fexbox for make a grid and position the elements.
